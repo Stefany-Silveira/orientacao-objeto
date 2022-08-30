@@ -1,4 +1,4 @@
-package br.com.stefany.oo;
+package br.com.stefany.oo.encapsulamento;
 
 public class Conta1 {
 

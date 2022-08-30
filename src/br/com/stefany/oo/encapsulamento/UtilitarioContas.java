@@ -1,4 +1,6 @@
-package br.com.stefany.oo;
+package br.com.stefany.oo.encapsulamento;
+
+import br.com.stefany.oo.encapsulamento.Conta1;
 
 public class UtilitarioContas {
 
