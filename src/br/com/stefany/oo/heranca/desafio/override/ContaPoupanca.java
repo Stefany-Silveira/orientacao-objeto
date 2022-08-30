@@ -19,9 +19,9 @@ public class ContaPoupanca extends ContaBancaria {
 
     public void calcularNovoSaldo(float taxa) {
          if (this.diaDeRendimento > 10) {
-             this.setSaldo(this.getSaldo() * taxa/100);
+             this.setSaldo(this.getSaldo() + (this.getSaldo() *taxa/100));
          } else {
-             this.setSaldo(((this.getSaldo() * taxa/100) + 1));
+             this.setSaldo(((this.getSaldo() + (this.getSaldo() * taxa/100) + 1)));
          }
     }
 }
